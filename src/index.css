@@ -57,3 +57,21 @@
   src: url('./assets/fonts/OpenDyslexic-BoldItalic.woff2') format('woff2');
   font-display: swap;
 }
+
+:root {
+  --color-bg: #FDF5E6;
+  --color-text-main: #2D2D2D;
+  --color-accent-blue: #457B9D;
+  --color-accent-red: #E63946;
+  --color-primary: #A8DADC;
+  --font-main: 'Lexend', sans-serif;
+  --font-assist: 'OpenDyslexic', sans-serif;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text-main);
+  font-family: var(--font-main);
+  margin: 0;
+  min-height: 100vh;
+}
